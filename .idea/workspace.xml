@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="384c85e4-93c4-4663-96a3-5ac71313e5bc" name="Default Changelist" comment="" />
+    <list default="true" id="384c85e4-93c4-4663-96a3-5ac71313e5bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/SchoolsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sda/SchoolsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/impl/DefaultStudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sda/impl/DefaultStudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/impl/DefaultStudentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/sda/impl/DefaultStudentRepository.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +23,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +34,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1Xq2noXAZwW8HeSRA9dTJqqTADL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,6 +42,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -63,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581759473895</updated>
-      <workItem from="1581759476701" duration="9895000" />
+      <workItem from="1581759476701" duration="12385000" />
     </task>
     <servers />
   </component>
@@ -83,21 +96,21 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1581761543621" />
-    <state width="1237" height="351" key="GridCell.Tab.0.bottom" timestamp="1581770505187">
+    <state width="1237" height="173" key="GridCell.Tab.0.bottom" timestamp="1581772191926">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="351" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581770505187" />
-    <state width="1237" height="351" key="GridCell.Tab.0.center" timestamp="1581770505187">
+    <state width="1237" height="173" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581772191926" />
+    <state width="1237" height="173" key="GridCell.Tab.0.center" timestamp="1581772191926">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="351" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581770505187" />
-    <state width="1237" height="351" key="GridCell.Tab.0.left" timestamp="1581770505187">
+    <state width="1237" height="173" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581772191926" />
+    <state width="1237" height="173" key="GridCell.Tab.0.left" timestamp="1581772191926">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="351" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581770505187" />
-    <state width="1237" height="351" key="GridCell.Tab.0.right" timestamp="1581770505187">
+    <state width="1237" height="173" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581772191926" />
+    <state width="1237" height="173" key="GridCell.Tab.0.right" timestamp="1581772191926">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="351" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581770505187" />
+    <state width="1237" height="173" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581772191926" />
   </component>
 </project>

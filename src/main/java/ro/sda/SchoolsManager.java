@@ -1,13 +1,16 @@
 package ro.sda;
-
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 import ro.sda.model.School;
 import ro.sda.model.Student;
 import ro.sda.repository.SchoolRepository;
 import ro.sda.repository.StudentRepository;
 
+@Component
 public class SchoolsManager {
 
+    @Qualifier("defaultSchoolRepository")
     @Autowired
     private SchoolRepository schoolRepository;
 
@@ -28,10 +31,10 @@ public class SchoolsManager {
         student1.setLastName("Balogh");
 
         Student student2 = new Student();
-        student1.setId(2);
-        student1.setCnp("1930281746374324");
-        student1.setFirstName("Vasile");
-        student1.setLastName("Popa");
+        student2.setId(2);
+        student2.setCnp("1930281746374324");
+        student2.setFirstName("Vasile");
+        student2.setLastName("Popa");
 
         School school1 = new School();
         school1.setId(1);
@@ -39,9 +42,9 @@ public class SchoolsManager {
         school1.setAddress("Cluj");
 
         School school2 = new School();
-        school1.setId(2);
-        school1.setName("UBB");
-        school1.setAddress("Cluj-Napoca");
+        school2.setId(2);
+        school2.setName("UBB");
+        school2.setAddress("Cluj-Napoca");
 
         schoolRepository.createEntity(school1);
         schoolRepository.createEntity(school2);

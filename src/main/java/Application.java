@@ -1,8 +1,6 @@
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import ro.sda.SchoolsManager;
 import ro.sda.config.ApplicationConfiguration;
-import ro.sda.model.School;
-import ro.sda.model.Student;
 import ro.sda.repository.SchoolRepository;
 import ro.sda.repository.StudentRepository;
 
