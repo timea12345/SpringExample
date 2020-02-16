@@ -1,6 +1,5 @@
 package ro.sda;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 import ro.sda.model.School;
 import ro.sda.model.Student;
