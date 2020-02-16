@@ -9,19 +9,14 @@ import ro.sda.repository.StudentRepository;
 
 @Component
 public class SchoolsManager {
-
-    @Qualifier("defaultSchoolRepository")
-    @Autowired
     private SchoolRepository schoolRepository;
-
-    @Autowired
     private StudentRepository studentRepository;
 
-//    @Autowired
-//    public SchoolsManager(SchoolRepository schoolRepository, StudentRepository studentRepository) {
-//        this.schoolRepository = schoolRepository;
-//        this.studentRepository = studentRepository;
-//    }
+    @Autowired
+    public SchoolsManager(SchoolRepository schoolRepository, StudentRepository studentRepository) {
+        this.schoolRepository = schoolRepository;
+        this.studentRepository = studentRepository;
+    }
 
     public void saveData() {
         Student student1 = new Student();

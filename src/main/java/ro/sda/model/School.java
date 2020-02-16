@@ -2,10 +2,9 @@ package ro.sda.model;
 
 import java.util.Objects;
 
-public class School {
+public class School extends Entity{
 
     private String name;
-    private int id;
     private String address;
 
     public String getName() {
@@ -14,14 +13,6 @@ public class School {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getAddress() {

@@ -2,12 +2,11 @@ package ro.sda.model;
 
 import java.util.Objects;
 
-public class Student {
+public class Student extends Entity {
 
     private String firstName;
     private String lastName;
     private String cnp;
-    private int id;
 
     public String getFirstName() {
         return firstName;
@@ -41,14 +40,6 @@ public class Student {
 
     public void setCnp(String cnp) {
         this.cnp = cnp;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     @Override
