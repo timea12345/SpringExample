@@ -1,11 +1,18 @@
 package ro.sda.model;
 
+import javax.persistence.Column;
 import java.util.Objects;
 
+@javax.persistence.Entity
 public class Student extends Entity {
 
+    @Column
     private String firstName;
+
+    @Column
     private String lastName;
+
+    @Column
     private String cnp;
 
     public String getFirstName() {
@@ -56,5 +63,13 @@ public class Student extends Entity {
     @Override
     public int hashCode() {
         return Objects.hash(firstName, lastName, cnp, id);
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }

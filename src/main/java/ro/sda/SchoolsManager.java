@@ -23,27 +23,27 @@ public class SchoolsManager {
         student1.setCnp("2930281746374324");
         student1.setFirstName("Timea");
         student1.setLastName("Balogh");
+        studentRepository.save(student1);
 
         Student student2 = new Student();
         student2.setId(2);
         student2.setCnp("1930281746374324");
         student2.setFirstName("Vasile");
         student2.setLastName("Popa");
+        studentRepository.save(student2);
 
         School school1 = new School();
         school1.setId(1);
         school1.setName("SDA");
         school1.setAddress("Cluj");
+        schoolRepository.save(school1);
 
         School school2 = new School();
         school2.setId(2);
         school2.setName("UBB");
         school2.setAddress("Cluj-Napoca");
+        schoolRepository.save(school2);
 
-        schoolRepository.createEntity(school1);
-        schoolRepository.createEntity(school2);
-        studentRepository.createEntity(student1);
-        studentRepository.createEntity(student2);
     }
 
 }
