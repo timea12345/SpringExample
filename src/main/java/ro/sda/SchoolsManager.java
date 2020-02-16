@@ -44,6 +44,18 @@ public class SchoolsManager {
         school2.setAddress("Cluj-Napoca");
         schoolRepository.save(school2);
 
+        School school3 = new School();
+        school3.setId(3);
+        school3.setName("UBB");
+        school3.setAddress("Cluj");
+        schoolRepository.save(school3);
+
+        School school4 = new School();
+        school4.setId(4);
+        school4.setName("UBB");
+        school4.setAddress("Cluj");
+        schoolRepository.save(school4);
+
     }
 
 }

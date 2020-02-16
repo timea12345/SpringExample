@@ -50,4 +50,13 @@ public class School extends Entity{
     public void setId(int id) {
         this.id = id;
     }
+
+    @Override
+    public String toString() {
+        return "School{" +
+                "name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", id=" + id +
+                '}';
+    }
 }

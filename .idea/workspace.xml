@@ -2,35 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="384c85e4-93c4-4663-96a3-5ac71313e5bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sda/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/SchoolsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sda/SchoolsManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/impl/DefaultSchoolRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/impl/DefaultStudentRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/impl/GenericRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/model/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sda/model/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/model/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sda/model/School.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sda/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/repository/BaseRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/repository/SchoolRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sda/repository/SchoolRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sda/repository/StudentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/sda/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/SchoolsManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/sda/SchoolsManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/impl/DefaultSchoolRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/impl/DefaultStudentRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/impl/GenericRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/model/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/sda/model/Entity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/model/School.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/sda/model/School.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/sda/model/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/repository/BaseRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/repository/SchoolRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/sda/repository/SchoolRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/repository/StudentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/sda/repository/StudentRepository.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +75,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -108,7 +86,8 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="duplicates.index" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -149,7 +128,8 @@
       <workItem from="1581759476701" duration="13908000" />
       <workItem from="1581789687246" duration="9822000" />
       <workItem from="1581845009915" duration="4517000" />
-      <workItem from="1581855692423" duration="5849000" />
+      <workItem from="1581855692423" duration="6135000" />
+      <workItem from="1581883184816" duration="7196000" />
     </task>
     <servers />
   </component>
@@ -165,10 +145,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1581856199723" />
-    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1581858480251">
+    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1581886387460">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1581858480251" />
+    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1581886387460" />
     <state x="332" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1581769378668">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -177,34 +157,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1581861451347" />
+    <state x="389" y="188" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1581883475428">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="389" y="188" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1581883475428" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1581849820974">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1581849820974" />
-    <state width="1237" height="517" key="GridCell.Tab.0.bottom" timestamp="1581861509686">
+    <state width="1237" height="495" key="GridCell.Tab.0.bottom" timestamp="1581890598525">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="517" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581861509686" />
-    <state width="1237" height="517" key="GridCell.Tab.0.center" timestamp="1581861509686">
+    <state width="1237" height="495" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581890598525" />
+    <state width="1237" height="495" key="GridCell.Tab.0.center" timestamp="1581890598525">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="517" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581861509686" />
-    <state width="1237" height="517" key="GridCell.Tab.0.left" timestamp="1581861509686">
+    <state width="1237" height="495" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581890598525" />
+    <state width="1237" height="495" key="GridCell.Tab.0.left" timestamp="1581890598524">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="517" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581861509686" />
-    <state width="1237" height="517" key="GridCell.Tab.0.right" timestamp="1581861509686">
+    <state width="1237" height="495" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581890598524" />
+    <state width="1237" height="495" key="GridCell.Tab.0.right" timestamp="1581890598525">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="517" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581861509686" />
+    <state width="1237" height="495" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581890598525" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1581845445317">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1581845445317" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1581846690778">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1581884837191">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581846690778" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581884837191" />
     <state x="540" y="231" width="322" height="233" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1581860252813">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -213,14 +197,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1581841324367" />
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1581789713329">
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1581883189982">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1581789713329" />
-    <state x="515" y="115" key="extract.method.dialog" timestamp="1581859674754">
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1581883189982" />
+    <state x="515" y="115" key="extract.method.dialog" timestamp="1581887234056">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="515" y="115" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1581859674754" />
+    <state x="515" y="115" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1581887234056" />
     <state x="91" y="36" key="new project wizard" timestamp="1581842429478">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
