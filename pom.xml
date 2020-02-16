@@ -7,8 +7,26 @@
     <groupId>org.example</groupId>
     <artifactId>spring1</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <spring.version>5.1.8.RELEASE</spring.version>
+        <java.version>1.8</java.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <version>2.2.4.RELEASE</version>
+        </dependency>
+
+    </dependencies>
+
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -19,21 +37,5 @@
             </plugin>
         </plugins>
     </build>
-
-    <properties>
-        <spring.version>5.1.8.RELEASE</spring.version>
-    </properties>
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-core</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-    </dependencies>
 
 </project>
