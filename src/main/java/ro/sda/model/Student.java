@@ -76,13 +76,6 @@ public class Student extends Entity {
         this.cnp = cnp;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
 
     @Override
     public boolean equals(Object o) {

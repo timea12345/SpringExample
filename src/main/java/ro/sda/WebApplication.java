@@ -11,3 +11,6 @@ public class WebApplication {
         SpringApplication.run(WebApplication.class, args);
     }
 }
+
+// actiuni pentru formular add si edit todo
+// tutoriale spring

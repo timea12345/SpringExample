@@ -43,14 +43,6 @@ public class School extends Entity{
         return Objects.hash(name, id, address);
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
     @Override
     public String toString() {
         return "School{" +
