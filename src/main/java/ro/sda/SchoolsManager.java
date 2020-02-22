@@ -25,6 +25,9 @@ public class SchoolsManager {
         student1.setCnp("2930281746374324");
         student1.setFirstName("Timea");
         student1.setLastName("Balogh");
+        student1.setAge(24);
+        student1.setEmail("Balogh@ffd");
+        student1.setGender("female");
         studentRepository.save(student1);
 
         Student student2 = new Student();
@@ -32,6 +35,9 @@ public class SchoolsManager {
         student2.setCnp("1930281746374324");
         student2.setFirstName("Vasile");
         student2.setLastName("Popa");
+        student2.setAge(24);
+        student2.setEmail("Balogh@ffd");
+        student2.setGender("female");
         studentRepository.save(student2);
 
         School school1 = new School();
@@ -102,7 +108,7 @@ public class SchoolsManager {
                     System.out.println("Enter first name: ");
                     String firstName = scanner.next();
                     System.out.println("We have found: ");
-                    System.out.println(studentRepository.findByName(firstName));
+                    System.out.println(studentRepository.findByFirstName(firstName));
                     break;
                 case 3:
                     System.out.println("Enter cnp: ");
@@ -110,7 +116,7 @@ public class SchoolsManager {
                     System.out.println("Enter first name: ");
                     String firstName2 = scanner.next();
                     System.out.println("We have found: ");
-                    System.out.println(studentRepository.findByNameAndCnp(firstName2, cnp2));
+                    System.out.println(studentRepository.findByFirstNameAndCnp(firstName2, cnp2));
                     break;
 
             }
