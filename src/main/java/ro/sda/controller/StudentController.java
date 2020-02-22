@@ -26,7 +26,7 @@ public class StudentController {
     }
 
     @GetMapping("/add/")
-    public String getAddView(Student student) {
+    public String getAddStudentView(Student student) {
         return "addStudents.html";
     }
 

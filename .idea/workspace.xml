@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="384c85e4-93c4-4663-96a3-5ac71313e5bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sda/WebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sda/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/addStudents.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/SchoolsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sda/SchoolsManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sda/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/repository/SchoolRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sda/repository/SchoolRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sda/repository/StudentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/sda/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/SchoolsManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/sda/SchoolsManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/sda/model/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/repository/SchoolRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/sda/repository/SchoolRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/repository/StudentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/sda/repository/StudentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sda/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addStudents.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/addStudents.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/sda/controller/StudentController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +167,7 @@
       <workItem from="1581845009915" duration="4517000" />
       <workItem from="1581855692423" duration="6135000" />
       <workItem from="1581883184816" duration="7575000" />
-      <workItem from="1582354702351" duration="13170000" />
+      <workItem from="1582354702351" duration="14007000" />
     </task>
     <servers />
   </component>
@@ -213,38 +203,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582361008894" />
-    <state width="1237" height="13" key="GridCell.Tab.0.bottom" timestamp="1582376764853">
+    <state width="1237" height="336" key="GridCell.Tab.0.bottom" timestamp="1582377622692">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="13" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582376764853" />
-    <state width="1237" height="13" key="GridCell.Tab.0.center" timestamp="1582376764852">
+    <state width="1237" height="336" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582377622692" />
+    <state width="1237" height="336" key="GridCell.Tab.0.center" timestamp="1582377622692">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="13" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582376764852" />
-    <state width="1237" height="13" key="GridCell.Tab.0.left" timestamp="1582376764852">
+    <state width="1237" height="336" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582377622692" />
+    <state width="1237" height="336" key="GridCell.Tab.0.left" timestamp="1582377622692">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="13" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582376764852" />
-    <state width="1237" height="13" key="GridCell.Tab.0.right" timestamp="1582376764853">
+    <state width="1237" height="336" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582377622692" />
+    <state width="1237" height="336" key="GridCell.Tab.0.right" timestamp="1582377622692">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="13" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582376764853" />
-    <state width="1237" height="13" key="GridCell.Tab.1.bottom" timestamp="1582376764854">
+    <state width="1237" height="336" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582377622692" />
+    <state width="1237" height="336" key="GridCell.Tab.1.bottom" timestamp="1582377622693">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="13" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582376764854" />
-    <state width="1237" height="13" key="GridCell.Tab.1.center" timestamp="1582376764853">
+    <state width="1237" height="336" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582377622693" />
+    <state width="1237" height="336" key="GridCell.Tab.1.center" timestamp="1582377622693">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="13" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1582376764853" />
-    <state width="1237" height="13" key="GridCell.Tab.1.left" timestamp="1582376764853">
+    <state width="1237" height="336" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1582377622693" />
+    <state width="1237" height="336" key="GridCell.Tab.1.left" timestamp="1582377622693">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="13" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1582376764853" />
-    <state width="1237" height="13" key="GridCell.Tab.1.right" timestamp="1582376764853">
+    <state width="1237" height="336" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1582377622693" />
+    <state width="1237" height="336" key="GridCell.Tab.1.right" timestamp="1582377622693">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="13" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1582376764853" />
+    <state width="1237" height="336" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1582377622693" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1581845445317">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
