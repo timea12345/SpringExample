@@ -16,10 +16,32 @@
             <div class="col-md-6">
                 <label for="firstName">First name</label><br>
                 <input class="form-control" id="firstName" th:field="*{firstName}" type="text" placeholder="First name">
+                <span th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}" class="text-danger"></span>
             </div>
             <div class="col-md-6">
                 <label for="lastName">Last name</label><br>
                 <input class="form-control" id="lastName" th:field="*{lastName}" type="text" placeholder="Last name">
+                <span th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}" class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <label for="email">Email</label><br>
+                <input class="form-control" id="email" th:field="*{email}" type="text" placeholder="Email">
+                <span th:if="${#fields.hasErrors('email')}" th:errors="*{email}" class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <label for="cnp">CNP</label><br>
+                <input class="form-control" id="cnp" th:field="*{cnp}" type="text" placeholder="CNP">
+                <span th:if="${#fields.hasErrors('cnp')}" th:errors="*{cnp}" class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <label for="age">Age</label><br>
+                <input class="form-control" id="age" th:field="*{age}" type="number" placeholder="Age">
+                <span th:if="${#fields.hasErrors('age')}" th:errors="*{age}" class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <label for="gender">Gender</label><br>
+                <input class="form-control" id="gender" th:field="*{gender}" type="text" placeholder="Gender">
+                <span th:if="${#fields.hasErrors('gender')}" th:errors="*{gender}" class="text-danger"></span>
             </div>
             <div class="col-md-6">
                 <input type="submit" value="Edit student">

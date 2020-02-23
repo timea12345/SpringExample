@@ -3,11 +3,14 @@ package ro.sda.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import ro.sda.model.Student;
 import ro.sda.repository.StudentRepository;
+
+import javax.validation.Valid;
 import java.util.Optional;
 
 @Controller
@@ -33,7 +36,10 @@ public class StudentController {
     }
 
     @PostMapping("/add/")
-    public String processAddStudent(Student student) {
+    public String processAddStudent(@Valid Student student, BindingResult bindingResult) {
+        if (bindingResult.hasErrors()) {
+            return "addStudents";
+        }
         studentRepository.save(student);
         return "redirect:/";
     }
@@ -55,7 +61,10 @@ public class StudentController {
     }
 
     @PostMapping("/edit/")
-    public String processEditStudent(Student student) {
+    public String processEditStudent(@Valid Student student, BindingResult bindingResult) {
+        if (bindingResult.hasErrors()) {
+            return "editStudent";
+        }
         studentRepository.save(student);
         return "redirect:/";
     }

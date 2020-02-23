@@ -1,27 +1,38 @@
 package ro.sda.model;
 
 import javax.persistence.Column;
+import javax.validation.constraints.*;
 import java.util.Objects;
 
 @javax.persistence.Entity
 public class Student extends Entity {
 
     @Column
+    @NotBlank(message = "First name is mandatory")
     private String firstName;
 
     @Column
+    @NotBlank(message = "Last name is mandatory")
     private String lastName;
 
     @Column
+    @Size(min = 13, max = 13, message = "not valid")
+    @Digits(integer = 13, fraction = 0, message = "CNP must have only digits")
     private String cnp;
 
     @Column
+    @NotBlank(message = "Gender is mandatory")
     private String gender;
 
     @Column
-    private int age;
+    @Min(value = 1, message = "Age has to be at least 1")
+    @Max(value = 80, message = "Age has to be max 80")
+    @NotNull(message = "not null!!")
+    private Integer age;
 
     @Column
+    @NotBlank(message = "Email is mandatory")
+    @Email(message = "email has to be valid")
     private String email;
 
     public Student() {
@@ -43,11 +54,11 @@ public class Student extends Entity {
         this.gender = gender;
     }
 
-    public int getAge() {
+    public Integer getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(Integer age) {
         this.age = age;
     }
 

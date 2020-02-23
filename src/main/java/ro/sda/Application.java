@@ -27,6 +27,6 @@ public class Application implements CommandLineRunner {
     public void run(String... args) throws Exception {
 //        schoolsManager.userInput();
         schoolsManager.saveData();
-        schoolsManager.findEntity();
+//        schoolsManager.findEntity();
     }
 }
