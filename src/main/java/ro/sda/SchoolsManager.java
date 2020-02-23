@@ -22,7 +22,7 @@ public class SchoolsManager {
     public void saveData() {
         Student student1 = new Student();
         student1.setId(1);
-        student1.setCnp("2930281746374324");
+        student1.setCnp("2930286374324");
         student1.setFirstName("Timea");
         student1.setLastName("Balogh");
         student1.setAge(24);
@@ -32,12 +32,12 @@ public class SchoolsManager {
 
         Student student2 = new Student();
         student2.setId(2);
-        student2.setCnp("1930281746374324");
-        student2.setFirstName("Vasile");
+        student2.setCnp("1930281746324");
+        student2.setFirstName("Alin");
         student2.setLastName("Popa");
         student2.setAge(24);
-        student2.setEmail("Balogh@ffd");
-        student2.setGender("female");
+        student2.setEmail("popa@ffd");
+        student2.setGender("male");
         studentRepository.save(student2);
 
         School school1 = new School();

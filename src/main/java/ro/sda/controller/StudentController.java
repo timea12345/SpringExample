@@ -23,13 +23,6 @@ public class StudentController {
         this.studentRepository = studentRepository;
     }
 
-    @GetMapping("/")
-    public String getIndex(Model model) {
-        Iterable<Student> students = studentRepository.findAll();
-        model.addAttribute("students", students);
-        return "index";
-    }
-
     @GetMapping("/add/")
     public String getAddStudentView(Student student) {
         return "addStudents.html";

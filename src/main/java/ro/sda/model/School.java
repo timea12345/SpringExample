@@ -1,15 +1,18 @@
 package ro.sda.model;
 
 import javax.persistence.Column;
+import javax.validation.constraints.NotBlank;
 import java.util.Objects;
 
 @javax.persistence.Entity
 public class School extends Entity{
 
     @Column
+    @NotBlank(message = "not valid!")
     private String name;
 
     @Column
+    @NotBlank(message = "not valid!")
     private String address;
 
     public String getName() {

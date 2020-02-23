@@ -22,6 +22,7 @@ public class Student extends Entity {
 
     @Column
     @NotBlank(message = "Gender is mandatory")
+    @Pattern(regexp = "([m/f/M/F])", message = "must be male or female")
     private String gender;
 
     @Column
