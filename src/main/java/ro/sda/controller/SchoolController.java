@@ -7,14 +7,15 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import ro.sda.model.School;
-import ro.sda.model.Student;
 import ro.sda.repository.SchoolRepository;
 
 import javax.validation.Valid;
 import java.util.Optional;
 
 @Controller
+@RequestMapping("/school")
 public class SchoolController {
 
     private final SchoolRepository schoolRepository;
@@ -24,19 +25,12 @@ public class SchoolController {
         this.schoolRepository = schoolRepository;
     }
 
-//    @GetMapping("/")
-//    public String getIndex(Model model) {
-//        Iterable<School> schools = schoolRepository.findAll();
-//        model.addAttribute("schools", schools);
-//        return "index";
-//    }
-
-    @GetMapping("/addSchool/")
+    @GetMapping("/add/")
     public String addSSchool(School school) {
         return "addSchool.html";
     }
 
-    @PostMapping("/addSchool/")
+    @PostMapping("/add/")
     public String processAddSchool(@Valid School school, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
             return "addSchool";
@@ -45,13 +39,13 @@ public class SchoolController {
         return "redirect:/";
     }
 
-    @GetMapping("/deleteSchool/{id}")
+    @GetMapping("/delete/{id}")
     public String deleteSchool(@PathVariable long id) {
         schoolRepository.deleteById(id);
         return "redirect:/";
     }
 
-    @GetMapping("/editSchool/{id}")
+    @GetMapping("/edit/{id}")
     public String editSchool(@PathVariable long id, Model model) {
         Optional<School> school = schoolRepository.findById(id);
         if (!school.isPresent()) {
@@ -61,7 +55,7 @@ public class SchoolController {
         return "editSchool.html";
     }
 
-    @PostMapping("/editSchool/")
+    @PostMapping("/edit/")
     public String processEditSchool(@Valid School school, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
             return "editSchool";

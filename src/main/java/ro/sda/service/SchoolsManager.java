@@ -1,4 +1,4 @@
-package ro.sda;
+package ro.sda.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import ro.sda.model.School;

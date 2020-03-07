@@ -12,7 +12,8 @@
 <div th:switch="${students}" class="container my-5">
     <div class="row">
         <div class="col-md-6">
-            <p class="my-5"><a href="/add/" class="btn btn-primary"><i class="fas fa-user-plus ml-2"></i></a></p>
+            <p class="my-5"><a href="/logout" class="btn btn-primary"><i class="fas fa-sign-out-alt"></i></a></p>
+            <p class="my-5"><a href="/student/add/" class="btn btn-primary"><i class="fas fa-user-plus ml-2"></i></a></p>
             <h2 th:case="null">No students yet!</h2>
             <div th:case="*">
                 <h2 class="my-5">Students</h2>
@@ -37,8 +38,8 @@
                         <td th:text="${student.gender}"></td>
                         <td th:text="${student.age}"></td>
                         <td th:text="${student.email}"></td>
-                        <td><a th:href="@{/edit/{id}/(id=${student.id})}" class="btn btn-primary"><i class="fas fa-user-edit ml-2"></i></a></td>
-                        <td><a th:href="@{/delete/{id}/(id=${student.id})}" class="btn btn-primary"><i class="fas fa-user-times ml-2"></i></a></td>
+                        <td><a th:href="@{/student/edit/{id}/(id=${student.id})}" class="btn btn-primary"><i class="fas fa-user-edit ml-2"></i></a></td>
+                        <td><a th:href="@{/student/delete/{id}/(id=${student.id})}" class="btn btn-primary"><i class="fas fa-user-times ml-2"></i></a></td>
                     </tr>
                     </tbody>
                 </table>
@@ -49,7 +50,7 @@
 <div th:switch="${schools}" class="container my-5">
     <div class="row">
         <div class="col-md-6">
-            <p class="my-5"><a href="/addSchool/" class="btn btn-primary"><i class="fas fa-user-plus ml-2"></i></a></p>
+            <p class="my-5"><a href="/school/add/" class="btn btn-primary"><i class="fas fa-user-plus ml-2"></i></a></p>
             <h2 th:case="null">No schools yet!</h2>
             <div th:case="*">
                 <h2 class="my-5">Schools</h2>
@@ -66,8 +67,8 @@
                     <tr th:each="school : ${schools}">
                         <td th:text="${school.name}"></td>
                         <td th:text="${school.address}"></td>
-                        <td><a th:href="@{/editSchool/{id}/(id=${school.id})}" class="btn btn-primary"><i class="fas fa-user-edit ml-2"></i></a></td>
-                        <td><a th:href="@{/deleteSchool/{id}/(id=${school.id})}" class="btn btn-primary"><i class="fas fa-user-times ml-2"></i></a></td>
+                        <td><a th:href="@{/school/edit/{id}/(id=${school.id})}" class="btn btn-primary"><i class="fas fa-user-edit ml-2"></i></a></td>
+                        <td><a th:href="@{/school/delete/{id}/(id=${school.id})}" class="btn btn-primary"><i class="fas fa-user-times ml-2"></i></a></td>
                     </tr>
                     </tbody>
                 </table>

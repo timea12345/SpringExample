@@ -11,17 +11,17 @@
 <body>
 <div class="container my-5">
     <div class="row">
-        <form action="#" th:action="@{/editSchool/}" th:object="${school}" method="post">
+        <form action="#" th:action="@{/school/edit/}" th:object="${school}" method="post">
             <input type="hidden" th:field="*{id}" />
             <div class="col-md-6">
                 <label for="name">Name</label><br>
                 <input class="form-control" id="name" th:field="*{name}" type="text" placeholder="Name">
-                <span th:if="${#fields.hasErrors('name')}" th:errors="*{name}" class="text-danger"></span>
+                <span th:if="${#fields.hasErrors('name')}" th:errors="*{name}" class="text-danger"></span><br>
             </div>
             <div class="col-md-6">
                 <label for="address">Address</label><br>
                 <input class="form-control" id="address" th:field="*{address}" type="text" placeholder="Address">
-                <span th:if="${#fields.hasErrors('address')}" th:errors="*{address}" class="text-danger"></span>
+                <span th:if="${#fields.hasErrors('address')}" th:errors="*{address}" class="text-danger"></span><br>
             </div>
             <div class="col-md-6">
                 <input type="submit" value="Edit school">

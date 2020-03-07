@@ -2,19 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="384c85e4-93c4-4663-96a3-5ac71313e5bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sda/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sda/controller/SchoolController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/addSchool.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/editSchool.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sda/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sda/dto/UserRegistrationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sda/model/LocalUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sda/model/Roles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sda/repository/LocalUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sda/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sda/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/SchoolsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sda/SchoolsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sda/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/SchoolsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sda/service/SchoolsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sda/WebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sda/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/controller/SchoolController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sda/controller/SchoolController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sda/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/model/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sda/model/School.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sda/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sda/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addSchool.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/addSchool.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addStudents.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/addStudents.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/editSchool.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/editSchool.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/editStudent.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/editStudent.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/SchoolsManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/sda/SchoolsManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/model/Student$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/sda/model/Student$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/sda/model/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/sda/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/SchoolsManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/WebApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/sda/WebApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/sda/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/controller/SchoolController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/sda/controller/SchoolController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/sda/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/sda/controller/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/addSchool.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/addSchool.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/addStudents.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/addStudents.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/editSchool.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/editSchool.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/editStudent.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/editStudent.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,21 +66,14 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="spring_data: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="spring_data@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="spring_data: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="student: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -79,7 +89,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1Xq2noXAZwW8HeSRA9dTJqqTADL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -137,7 +149,7 @@
       <module name="spring1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ro.sda.*" />
+          <option name="PATTERN" value="ro.sda.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,7 +190,8 @@
       <workItem from="1581883184816" duration="7575000" />
       <workItem from="1582354702351" duration="17003000" />
       <workItem from="1582435416063" duration="1203000" />
-      <workItem from="1582442121297" duration="6076000" />
+      <workItem from="1582442121297" duration="17653000" />
+      <workItem from="1583521813795" duration="3852000" />
     </task>
     <servers />
   </component>
@@ -194,10 +207,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1582376369738" />
-    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1582374924251">
+    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1582461373578">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1582374924251" />
+    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1582461373578" />
     <state x="332" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1581769378668">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -214,46 +227,46 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582361008894" />
-    <state width="1237" height="463" key="GridCell.Tab.0.bottom" timestamp="1582448274563">
+    <state width="1237" height="68" key="GridCell.Tab.0.bottom" timestamp="1583523403749">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="463" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582448274563" />
-    <state width="1237" height="463" key="GridCell.Tab.0.center" timestamp="1582448274563">
+    <state width="1237" height="68" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583523403749" />
+    <state width="1237" height="68" key="GridCell.Tab.0.center" timestamp="1583523403748">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="463" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582448274563" />
-    <state width="1237" height="463" key="GridCell.Tab.0.left" timestamp="1582448274563">
+    <state width="1237" height="68" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583523403748" />
+    <state width="1237" height="68" key="GridCell.Tab.0.left" timestamp="1583523403747">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="463" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582448274563" />
-    <state width="1237" height="463" key="GridCell.Tab.0.right" timestamp="1582448274563">
+    <state width="1237" height="68" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583523403747" />
+    <state width="1237" height="68" key="GridCell.Tab.0.right" timestamp="1583523403749">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="463" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582448274563" />
-    <state width="1237" height="463" key="GridCell.Tab.1.bottom" timestamp="1582448274563">
+    <state width="1237" height="68" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583523403749" />
+    <state width="1237" height="68" key="GridCell.Tab.1.bottom" timestamp="1583523403750">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="463" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582448274563" />
-    <state width="1237" height="463" key="GridCell.Tab.1.center" timestamp="1582448274563">
+    <state width="1237" height="68" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583523403750" />
+    <state width="1237" height="68" key="GridCell.Tab.1.center" timestamp="1583523403750">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="463" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1582448274563" />
-    <state width="1237" height="463" key="GridCell.Tab.1.left" timestamp="1582448274563">
+    <state width="1237" height="68" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1583523403750" />
+    <state width="1237" height="68" key="GridCell.Tab.1.left" timestamp="1583523403749">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="463" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1582448274563" />
-    <state width="1237" height="463" key="GridCell.Tab.1.right" timestamp="1582448274563">
+    <state width="1237" height="68" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1583523403749" />
+    <state width="1237" height="68" key="GridCell.Tab.1.right" timestamp="1583523403750">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="463" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1582448274563" />
+    <state width="1237" height="68" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1583523403750" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1581845445317">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1581845445317" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1581884837191">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1582465129447">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581884837191" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1582465129447" />
     <state x="540" y="231" width="322" height="233" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1581860252813">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -262,10 +275,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1581841324367" />
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1582442126318">
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1583521813216">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582442126318" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1583521813216" />
     <state x="515" y="115" key="extract.method.dialog" timestamp="1581887234056">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -274,5 +287,13 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="91" y="36" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1581842429478" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1582465061130">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1582465061130" />
+    <state x="342" y="23" key="spring file set editor" timestamp="1582465125211">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="342" y="23" key="spring file set editor/0.0.1280.680@0.0.1280.680" timestamp="1582465125211" />
   </component>
 </project>

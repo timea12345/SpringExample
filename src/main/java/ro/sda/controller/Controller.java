@@ -21,11 +21,11 @@ public class Controller {
     }
 
     @GetMapping("/")
-    public String getIndex(Model model1, Model model2) {
+    public String getIndex(Model model) {
         Iterable<School> schools = schoolRepository.findAll();
-        model1.addAttribute("schools", schools);
+        model.addAttribute("schools", schools);
         Iterable<Student> students = studentRepository.findAll();
-        model2.addAttribute("students", students);
+        model.addAttribute("students", students);
         return "index";
     }
 }
