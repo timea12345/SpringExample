@@ -1,9 +1,9 @@
 package ro.sda.model;
 
-import javax.management.relation.Role;
 import javax.persistence.*;
 import javax.persistence.Entity;
 import java.util.Collection;
+import java.util.HashSet;
 
 @Entity
 public class LocalUser extends ro.sda.model.Entity {
@@ -14,8 +14,16 @@ public class LocalUser extends ro.sda.model.Entity {
     @Column
     private String password;
 
-    @ManyToMany(mappedBy = "users")
-    private Collection<Roles> roles;
+    @ManyToMany(mappedBy = "users", fetch = FetchType.EAGER)
+    private Collection<Role> roles = new HashSet<>();
+
+    public Collection<Role> getRoles() {
+        return roles;
+    }
+
+    public void addRole(Role role) {
+        this.roles.add(role);
+    }
 
     public String getEmail() {
         return email;

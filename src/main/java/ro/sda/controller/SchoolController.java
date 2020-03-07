@@ -1,6 +1,7 @@
 package ro.sda.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -40,11 +41,13 @@ public class SchoolController {
     }
 
     @GetMapping("/delete/{id}")
+    @Secured("ADMIN")
     public String deleteSchool(@PathVariable long id) {
         schoolRepository.deleteById(id);
         return "redirect:/";
     }
 
+    @Secured("ADMIN")
     @GetMapping("/edit/{id}")
     public String editSchool(@PathVariable long id, Model model) {
         Optional<School> school = schoolRepository.findById(id);
